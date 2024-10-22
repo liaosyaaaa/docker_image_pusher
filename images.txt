@@ -1,6 +1,6 @@
 nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-linuxserver/ffmpeg:version-7.1-cli
+jellyfin/jellyfin:unstable
 #支持指定架构
---platform=linux/arm64 linuxserver/ffmpeg:version-7.1-cli
+--platform=linux/arm64 jellyfin/jellyfin:unstable
