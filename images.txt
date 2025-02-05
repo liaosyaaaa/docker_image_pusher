@@ -1,6 +1,6 @@
 nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-centralx/clash:1.18.0
+dyrnq/open-webui:latest
 #支持指定架构
---platform=linux/arm64 centralx/clash:1.18.0
+--platform=linux/arm64 dyrnq/open-webui:latest
